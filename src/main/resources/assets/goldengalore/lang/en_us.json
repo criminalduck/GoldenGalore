@@ -1,7 +1,34 @@
 {
-  "block.ducksbackpackmod.backpack": "Backpack",
+  "item.minecraft.golden_sword": "§6Golden Sword",
+  "item.minecraft.golden_axe": "§6Golden Axe",
+  "item.minecraft.golden_shovel": "§6Golden Shovel",
+  "item.minecraft.golden_hoe": "§6Golden Hoe",
+  "item.minecraft.golden_pickaxe": "§6Golden Pickaxe",
+  "item.minecraft.golden_helmet": "§6Golden Helmet",
+  "item.minecraft.golden_chestplate": "§6Golden Chestplate",
+  "item.minecraft.golden_leggings": "§6Golden Leggings",
+  "item.minecraft.golden_boots": "§6Golden Boots",
+  "item.minecraft.golden_horse_armor": "§6Golden Horse Armor",
+  "item.minecraft.golden_carrot": "§6Golden Carrot",
+  "item.minecraft.golden_apple": "§6Golden Apple",
+  "item.minecraft.raw_gold": "§6Raw Gold",
+  "item.minecraft.gold_nugget": "§6Gold Nugget",
+  "item.minecraft.gold_ingot": "§6Gold Ingot",
+  "block.minecraft.gold_block": "§6Block of Gold",
+  "block.minecraft.gold_ore": "§6Gold Ore",
+  "block.minecraft.deepslate_gold_ore": "§6Deepslate Gold Ore",
+  "block.minecraft.nether_gold_ore": "§6Nether Gold Ore",
+  "block.minecraft.raw_gold_block": "§6Block of Raw Gold",
+  "item.minecraft.clock": "§6Clock",
+  "block.minecraft.bell": "§6Bell",
 
-  "item.ducksbackpackmod.storage_upg": "Storage Upgrade",
 
-  "creativetab.ducksbackpackmod_tab": "Duck's Backpacks"
+  "item.goldengalore.golden_wheat": "§6Golden Wheat",
+  "item.goldengalore.golden_bread": "§6Golden Bread",
+
+  "item.goldengalore.midas_crown": "§6Midas' Crown",
+
+  "effect.goldengalore.golden_frenzy": "§6Golden Frenzy",
+
+  "creativetab.goldengalore_tab": "Golden Galore"
 }
