@@ -26,9 +26,17 @@
   "item.goldengalore.golden_wheat": "§6Golden Wheat",
   "item.goldengalore.golden_bread": "§6Golden Bread",
 
+  "item.goldengalore.golden_potato": "§6Golden Potato",
+  "item.goldengalore.golden_beetroot": "§6Golden Beetroot",
+
+  "item.goldengalore.golden_sugar": "§6Golden Sugar",
+  "block.goldengalore.golden_sugar_block": "§6Block of Golden Sugar",
+
   "item.goldengalore.midas_crown": "§6Midas' Crown",
 
   "effect.goldengalore.golden_frenzy": "§6Golden Frenzy",
+  "effect.goldengalore.sugar_craze": "Sugar Craze",
+  "effect.goldengalore.golden_protection": "§6Golden Protection",
 
   "creativetab.goldengalore_tab": "Golden Galore"
 }

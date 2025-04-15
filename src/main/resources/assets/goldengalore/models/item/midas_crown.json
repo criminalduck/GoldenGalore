@@ -1,6 +1,18 @@
 {
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "goldengalore:item/midas_crown"
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "goldengalore:item/midas_crown_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "goldengalore:item/midas_crown_2d"
+    },
+    "ground": {
+      "parent": "goldengalore:item/midas_crown_3d"
+    },
+    "fixed": {
+      "parent": "goldengalore:item/midas_crown_2d"
+    }
   }
 }

@@ -4,7 +4,108 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="641d5c77-30c6-49da-a269-e5225a34d5db" name="Changes" comment="" />
+    <list default="true" id="641d5c77-30c6-49da-a269-e5225a34d5db" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/block/GoldEmitterBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/client/render/CrownRenderer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/effect/GoldenProtectionEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/effect/SugarCrazeEffect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/events/ModEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/init/ModBlocks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/init/ModCreativeTabs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/init/ModItems.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/init/ModMobEffects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/item/CrownItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/blockstates/golden_sugar_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/block/golden_sugar_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item/golden_beetroot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item/golden_potato.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item/golden_sugar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item/midas_crown_2d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item/midas_crown_3d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/textures/block/golden_sugar_block.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/textures/item/golden_beetroot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/textures/item/golden_potato.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/textures/item/golden_sugar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/textures/item/midas_crown_3d.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/textures/mob_effect/golden_protection.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/textures/mob_effect/sugar_craze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/curios/tags/items/head.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/goldengalore/curios/entities/entities.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/goldengalore/loot_tables/blocks/golden_sugar_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/goldengalore/recipes/golden_beetroot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/goldengalore/recipes/golden_potato.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/goldengalore/recipes/golden_sugar.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/goldengalore/recipes/golden_sugar_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/beetroots.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/carrots.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/potatoes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/loot_tables/blocks/wheat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-10.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-10.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-11.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-11.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-12.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-12.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-8.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2025-04-15-9.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2025-04-15-9.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/capabilities.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/serverconfig/curios-server.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/serverconfig/forge-server.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/serverconfig/jei-server.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/GoldenGaloreMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/GoldenGaloreMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/armour_material/ModAmourMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/armour_material/MidasArmourMaterial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/effect/GoldenFrenzyEffect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/effect/GoldenFrenzyEffect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/criminalduck/goldengalore/init/ModRegisters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/blockstates/workbench.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/lang/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/block/workbench.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item/midas_crown.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item/midas_crown.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item/workbench.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item/golden_sugar_block.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/textures/mob_effect/golden_frenzy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/goldengalore/textures/mob_effect/golden_frenzy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/goldengalore/recipes/golden_wheat.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/goldengalore/recipes/golden_wheat.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,16 +127,16 @@
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="goldengalore" type="f1a62948:ProjectNode" />
+                <item name="GoldenGalore" type="f1a62948:ProjectNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="goldengalore" type="f1a62948:ProjectNode" />
+                <item name="GoldenGalore" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="goldengalore" type="f1a62948:ProjectNode" />
+                <item name="GoldenGalore" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="forgegradle runs" type="c8890929:TasksNode$1" />
               </path>
@@ -63,12 +164,12 @@
     &quot;assignee&quot;: &quot;criminalduck&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/criminalduck/goldengalore.git&quot;,
-    &quot;accountId&quot;: &quot;aaf302ee-c9a6-403b-9cb4-4c9806be7891&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/criminalduck/GoldenGalore.git",
+    "accountId": "aaf302ee-c9a6-403b-9cb4-4c9806be7891"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -77,29 +178,62 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle./Users/hestonglassey/Documents/Transfer/Mod Projects/Golden Galore Mod/goldengalore [createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.goldengalore [createMcpToSrg].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.goldengalore [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hestonglassey/Documents/Transfer/Mod Projects/Golden Galore Mod/goldengalore/src/main/resources/data/goldengalore/recipes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle./Users/hestonglassey/Documents/Transfer/Mod Projects/Golden Galore Mod/GoldenGalore [createMcpToSrg].executor": "Run",
+    "Gradle./Users/hestonglassey/Documents/Transfer/Mod Projects/Golden Galore Mod/goldengalore [createMcpToSrg].executor": "Run",
+    "Gradle.GoldenGalore [createMcpToSrg].executor": "Run",
+    "Gradle.GoldenGalore [genIntellijRuns].executor": "Run",
+    "Gradle.goldengalore [createMcpToSrg].executor": "Run",
+    "Gradle.goldengalore [runClient].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/hestonglassey/Documents/Transfer/Mod Projects/Golden Galore Mod/GoldenGalore/src/main/resources/assets/goldengalore/models/item"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data/goldengalore" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/goldengalore/recipes" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/goldengalore" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/goldengalore/textures/item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/goldengalore/models/item/" />
       <recent name="$PROJECT_DIR$/src/main/resources/assets/goldengalore" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.criminalduck.goldengalore.effect" />
+      <recent name="net.criminalduck.goldengalore.armour_material" />
     </key>
   </component>
   <component name="RunManager" selected="Gradle.goldengalore [runClient]">
+    <configuration name="GoldenGalore [genIntellijRuns]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="genIntellijRuns" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="goldengalore [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -204,6 +338,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.goldengalore [runClient]" />
+        <item itemvalue="Gradle.GoldenGalore [genIntellijRuns]" />
       </list>
     </recent_temporary>
   </component>

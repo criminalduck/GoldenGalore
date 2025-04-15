@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "result": {
+    "item": "goldengalore:golden_sugar",
+    "count": 1
+  },
+  "show_notification": true
+}
