@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "goldengalore:golden_wheat"
+    }
+  },
+  "pattern": [
+    "SSS"
+  ],
+  "result": {
+    "item": "goldengalore:golden_bread"
+  },
+  "show_notification": true
+}

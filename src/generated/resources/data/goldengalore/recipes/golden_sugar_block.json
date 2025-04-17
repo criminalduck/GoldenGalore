@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldengalore:golden_sugar"
+    },
+    {
+      "item": "goldengalore:golden_sugar"
+    },
+    {
+      "item": "goldengalore:golden_sugar"
+    },
+    {
+      "item": "goldengalore:golden_sugar"
+    },
+    {
+      "item": "goldengalore:golden_sugar"
+    },
+    {
+      "item": "goldengalore:golden_sugar"
+    },
+    {
+      "item": "goldengalore:golden_sugar"
+    },
+    {
+      "item": "goldengalore:golden_sugar"
+    },
+    {
+      "item": "goldengalore:golden_sugar"
+    }
+  ],
+  "result": {
+    "item": "goldengalore:golden_sugar_block"
+  }
+}

@@ -66,6 +66,19 @@ public class GoldenGaloreMod
         }
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.GOLDEN_SUGAR_BLOCK);
+            event.accept(ModBlocks.GOLD_CHISELED_BLOCK);
+            event.accept(ModBlocks.GOLD_BRICKS);
+            event.accept(ModBlocks.GOLD_BRICKS.get());
+            event.accept(ModBlocks.GOLD_CHISELED_BLOCK.get());
+            event.accept(ModBlocks.GOLD_BRICK_STAIRS.get());
+            event.accept(ModBlocks.GOLD_STAIRS.get());
+            event.accept(ModBlocks.GOLD_BRICK_SLAB.get());
+            event.accept(ModBlocks.GOLD_SLAB.get());
+            event.accept(ModBlocks.GOLD_BRICK_WALL.get());
+            event.accept(ModBlocks.GOLD_WALL.get());
+            event.accept(ModBlocks.GOLD_DOOR.get());
+            event.accept(ModBlocks.GOLD_TRAPDOOR.get());
+            event.accept(ModBlocks.GOLD_BUTTON.get());
         }
     }
 

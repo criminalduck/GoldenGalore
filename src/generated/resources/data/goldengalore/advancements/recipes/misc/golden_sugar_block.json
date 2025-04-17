@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_golden_sugar": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goldengalore:golden_sugar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "goldengalore:golden_sugar_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_golden_sugar",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "goldengalore:golden_sugar_block"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -32,11 +32,26 @@
   "item.goldengalore.golden_sugar": "§6Golden Sugar",
   "block.goldengalore.golden_sugar_block": "§6Block of Golden Sugar",
 
+  "block.goldengalore.gold_bricks": "§6Gold Bricks",
+  "block.goldengalore.gold_block_chiseled": "§6Chiseled Gold Block",
+  "block.goldengalore.gold_brick_stairs": "§6Gold Brick Stairs",
+  "block.goldengalore.gold_brick_slab": "§6Gold Brick Slab",
+  "block.goldengalore.gold_stairs": "§6Gold Stairs",
+  "block.goldengalore.gold_slab": "§6Gold Slab",
+  "block.goldengalore.gold_brick_wall": "§6Gold Brick Wall",
+  "block.goldengalore.gold_wall": "§6Gold Wall",
+  "block.goldengalore.gold_door": "§6Gold Door",
+  "block.goldengalore.gold_trapdoor": "§6Gold Trapdoor",
+  "block.goldengalore.gold_button": "§6Gold Button",
+
   "item.goldengalore.midas_crown": "§6Midas' Crown",
 
   "effect.goldengalore.golden_frenzy": "§6Golden Frenzy",
   "effect.goldengalore.sugar_craze": "Sugar Craze",
   "effect.goldengalore.golden_protection": "§6Golden Protection",
 
-  "creativetab.goldengalore_tab": "Golden Galore"
+  "creativetab.goldengalore_tab": "Golden Galore",
+
+  "tooltip.goldengalore.golden_potato1": "§8All war is deception.",
+  "tooltip.goldengalore.golden_potato2": "§8-Sun Tzu, The Art Of War"
 }

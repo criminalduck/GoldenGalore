@@ -1,0 +1,5 @@
+// 1.20.1	2025-04-17T01:13:45.465791	Tags for minecraft:block mod id goldengalore
+7ea72711b8cf017041921027a362873ee059635c data/minecraft/tags/blocks/mineable/pickaxe.json
+970f5c4146d90402daee97d9e6dcab5f132c4231 data/minecraft/tags/blocks/mineable/shovel.json
+7ea72711b8cf017041921027a362873ee059635c data/minecraft/tags/blocks/needs_iron_tool.json
+19e4e1051852ad5e3e2c3d0980ed51cb8278e390 data/minecraft/tags/blocks/walls.json

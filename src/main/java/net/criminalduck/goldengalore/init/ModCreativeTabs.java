@@ -16,6 +16,17 @@ public class ModCreativeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.GOLDEN_BREAD.get()))
                     .title(Component.translatable("creativetab.goldengalore_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
+                        output.accept(ModBlocks.GOLD_CHISELED_BLOCK.get());
+                        output.accept(ModBlocks.GOLD_BRICKS.get());
+                        output.accept(ModBlocks.GOLD_BRICK_STAIRS.get());
+                        output.accept(ModBlocks.GOLD_STAIRS.get());
+                        output.accept(ModBlocks.GOLD_BRICK_SLAB.get());
+                        output.accept(ModBlocks.GOLD_SLAB.get());
+                        output.accept(ModBlocks.GOLD_BRICK_WALL.get());
+                        output.accept(ModBlocks.GOLD_WALL.get());
+                        output.accept(ModBlocks.GOLD_DOOR.get());
+                        output.accept(ModBlocks.GOLD_TRAPDOOR.get());
+                        output.accept(ModBlocks.GOLD_BUTTON.get());
                         output.accept(ModItems.GOLDEN_BREAD.get());
                         output.accept(ModItems.GOLDEN_WHEAT.get());
                         output.accept(ModItems.GOLDEN_POTATO.get());
