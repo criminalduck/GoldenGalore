@@ -27,7 +27,7 @@ public class ModEvents {
         }
     }
 
-    public static boolean isWearingFullGold(Player pPlayer) {
+    private static boolean isWearingFullGold(Player pPlayer) {
         return isGoldArmor(pPlayer.getItemBySlot(EquipmentSlot.HEAD)) &&
                 isGoldArmor(pPlayer.getItemBySlot(EquipmentSlot.CHEST)) &&
                 isGoldArmor(pPlayer.getItemBySlot(EquipmentSlot.LEGS)) &&

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "goldengalore:block/chiseled_gold_block_end",
+    "side": "goldengalore:block/chiseled_gold_block_side"
+  }
+}

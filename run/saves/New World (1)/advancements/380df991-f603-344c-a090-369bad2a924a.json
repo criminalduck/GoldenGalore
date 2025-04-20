@@ -9,7 +9,9 @@
     "criteria": {
       "minecraft:sunflower_plains": "2025-04-15 18:47:45 +0100",
       "minecraft:beach": "2025-04-15 18:47:44 +0100",
-      "minecraft:swamp": "2025-04-15 18:45:55 +0100"
+      "minecraft:river": "2025-04-20 17:04:47 +0100",
+      "minecraft:swamp": "2025-04-15 18:45:55 +0100",
+      "minecraft:plains": "2025-04-17 23:35:33 +0100"
     },
     "done": false
   },
@@ -445,12 +447,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/golden_sugar_unpack": {
-    "criteria": {
-      "has_golden_sugar_block": "2025-04-16 23:28:06 +0100"
-    },
-    "done": true
-  },
   "goldengalore:recipes/building_blocks/gold_bricks": {
     "criteria": {
       "has_gold_block": "2025-04-16 23:28:06 +0100"
@@ -460,6 +456,586 @@
   "minecraft:recipes/misc/raw_gold": {
     "criteria": {
       "has_raw_gold_block": "2025-04-17 01:18:26 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 15:33:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 15:33:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 15:33:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 15:33:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 15:33:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 15:33:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 15:33:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-04-17 15:33:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-04-17 15:33:07 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/misc/golden_sugar_unpack": {
+    "criteria": {
+      "has_golden_sugar_block": "2025-04-17 15:39:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2025-04-17 15:39:32 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2025-04-17 15:39:32 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_slab": {
+    "criteria": {
+      "has_gold_block": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_brick_slab_from_gold_block_stonecutting": {
+    "criteria": {
+      "has_gold_block": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_wall_from_gold_block_stonecutting": {
+    "criteria": {
+      "has_gold_block": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_brick_stairs_from_gold_block_stonecutting": {
+    "criteria": {
+      "has_gold_block": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_brick_slab": {
+    "criteria": {
+      "has_gold_bricks": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_stairs": {
+    "criteria": {
+      "has_gold_block": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_slab_from_gold_block_stonecutting": {
+    "criteria": {
+      "has_gold_block": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_brick_wall": {
+    "criteria": {
+      "has_gold_bricks": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_brick_wall_from_gold_bricks_stonecutting": {
+    "criteria": {
+      "has_gold_bricks": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_brick_stairs": {
+    "criteria": {
+      "has_gold_bricks": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_stairs_from_gold_block_stonecutting": {
+    "criteria": {
+      "has_gold_block": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_bricks_from_gold_block_stonecutting": {
+    "criteria": {
+      "has_gold_block": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_brick_stairs_from_gold_bricks_stonecutting": {
+    "criteria": {
+      "has_gold_bricks": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_brick_slab_from_gold_bricks_stonecutting": {
+    "criteria": {
+      "has_gold_bricks": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_wall": {
+    "criteria": {
+      "has_gold_block": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_brick_wall_from_gold_block_stonecutting": {
+    "criteria": {
+      "has_gold_block": "2025-04-17 16:19:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-04-17 20:01:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-04-17 20:01:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-04-17 20:01:16 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-04-17 20:01:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-04-17 22:44:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:ghast": "2025-04-20 17:30:20 +0100",
+      "minecraft:creeper": "2025-04-17 22:44:05 +0100"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2025-04-17 22:44:05 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-04-17 23:35:23 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/misc/golden_wheat": {
+    "criteria": {
+      "has_wheat": "2025-04-17 23:40:56 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_sunflower": {
+    "criteria": {
+      "has_sunflower": "2025-04-17 23:41:06 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2025-04-18 21:12:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-04-18 21:12:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-04-18 21:12:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-04-18 21:12:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-04-18 21:12:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2025-04-18 21:12:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-04-18 21:12:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-04-18 21:12:31 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-04-18 21:12:31 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_pillar": {
+    "criteria": {
+      "has_chiseled_gold_block": "2025-04-19 17:42:30 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_pillar_from_gold_bricks_stonecutting": {
+    "criteria": {
+      "has_gold_bricks": "2025-04-19 17:42:41 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/chiseled_gold_block": {
+    "criteria": {
+      "has_gold_bricks": "2025-04-19 17:42:41 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/chiseled_gold_block_from_gold_bricks_stonecutting": {
+    "criteria": {
+      "has_gold_bricks": "2025-04-19 17:42:41 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2025-04-19 17:42:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_gold_ore": {
+    "criteria": {
+      "has_gold_ore": "2025-04-19 17:42:58 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-04-19 20:42:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-04-19 20:42:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-04-19 20:42:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-04-19 20:42:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-04-19 20:42:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-04-19 20:42:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2025-04-19 20:42:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-04-19 20:42:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-04-19 20:42:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_planks": "2025-04-19 20:42:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-04-19 20:42:04 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-04-19 20:42:24 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/chiseled_gold_block_from_gold_block_stonecutting": {
+    "criteria": {
+      "has_gold_block": "2025-04-19 21:34:47 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/building_blocks/gold_pillar_from_gold_block_stonecutting": {
+    "criteria": {
+      "has_gold_block": "2025-04-19 21:34:47 +0100"
+    },
+    "done": true
+  },
+  "goldengalore:recipes/misc/solid_gold_bucket_unpack": {
+    "criteria": {
+      "has_the_recipe": "2025-04-19 21:34:54 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/goldengaloremolten_gold_bucket_from_smelting_solid_gold_bucket": {
+    "criteria": {
+      "has_solid_gold_bucket": "2025-04-19 21:35:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/goldengaloremolten_gold_bucket_from_blasting_solid_gold_bucket": {
+    "criteria": {
+      "has_solid_gold_bucket": "2025-04-19 21:35:01 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-04-19 21:35:07 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2025-04-19 21:35:18 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_obsidian": "2025-04-20 17:00:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-04-20 17:00:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/enchanting_table": {
+    "criteria": {
+      "has_obsidian": "2025-04-20 17:00:47 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-04-20 17:01:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-04-20 17:01:19 +0100"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-04-20 17:04:09 +0100",
+      "minecraft:nether_wastes": "2025-04-20 17:01:22 +0100",
+      "minecraft:soul_sand_valley": "2025-04-20 17:04:00 +0100"
+    },
+    "done": false
+  },
+  "goldengalore:recipes/misc/molten_gold_bucket_cooling": {
+    "criteria": {
+      "has_molten_gold_bucket": "2025-04-20 17:13:10 +0100"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "golden_apple": "2025-04-20 17:14:32 +0100",
+      "enchanted_golden_apple": "2025-04-20 21:18:12 +0100"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-04-20 17:30:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-04-20 17:30:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-04-20 17:30:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-04-20 17:30:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2025-04-20 17:30:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-04-20 17:30:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-04-20 17:30:30 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-04-20 21:18:09 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2025-04-20 22:14:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2025-04-20 22:14:14 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_planks": {
+    "criteria": {
+      "has_logs": "2025-04-20 23:14:28 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-04-20 23:16:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_spruce_wood": {
+    "criteria": {
+      "has_log": "2025-04-20 23:16:21 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-04-20 23:25:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_jungle_wood": {
+    "criteria": {
+      "has_log": "2025-04-20 23:25:52 +0100"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_wood": {
+    "criteria": {
+      "has_log": "2025-04-20 23:26:26 +0100"
     },
     "done": true
   },

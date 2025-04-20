@@ -1,16 +1,22 @@
-// 1.20.1	2025-04-17T01:40:22.442129	Item Models: goldengalore
-bf38c1a08e9e3fd5ae17b06984b56ff44b2d9438 assets/goldengalore/models/item/gold_block_chiseled.json
+// 1.20.1	2025-04-20T20:43:21.688696	Item Models: goldengalore
+269e94b8e38db07dec921a51a231e6e7ac4c584b assets/goldengalore/models/item/chiseled_gold_block.json
 fe1519dfbcb8b17860447ca527f98e5e2c7cb68b assets/goldengalore/models/item/gold_brick_slab.json
 9a1c7b7e78ac72ccb0a676dd4ad3669a97789510 assets/goldengalore/models/item/gold_brick_stairs.json
 acf8189a230c864214265a38a42539bc7bbe4a04 assets/goldengalore/models/item/gold_brick_wall.json
 4af6ed68e7401ec6bee526510460875f85e2c592 assets/goldengalore/models/item/gold_button.json
 946fe276627d3b9934e3f415faf726841bea5fc4 assets/goldengalore/models/item/gold_door.json
+6223c327e4ceba81e6525cb592bafb3c43a1277d assets/goldengalore/models/item/gold_pillar.json
 d1751c0961f2553dd7466c3b996a064baf1d6a33 assets/goldengalore/models/item/gold_slab.json
 8f69cb3372ed7fdb8d0383c0b814a000f045bd23 assets/goldengalore/models/item/gold_stairs.json
 9b4bf4d7ac9e44df2ed89fbcf4275217f6f28037 assets/goldengalore/models/item/gold_trapdoor.json
 0cefd5a0367211c7999d6dc26fc305c33d432030 assets/goldengalore/models/item/gold_wall.json
 92c534c4041b52b60312954bc1a9125e8ff3a6ab assets/goldengalore/models/item/golden_beetroot.json
 74def6f80037ed707820f473588829cc26c2dbe4 assets/goldengalore/models/item/golden_bread.json
+2f83c7c5a3a651eebf93767a4a78427e99ef46e7 assets/goldengalore/models/item/golden_ghast_tear.json
 71c1635bb014cafd54fb0affcbd36be7bab0bac5 assets/goldengalore/models/item/golden_potato.json
+9d91b340cf1b705715b3bf68dece4c9d9cb5a490 assets/goldengalore/models/item/golden_rabbits_foot.json
+6a3bfc4325b4154f3684b592c91481acd6f6c310 assets/goldengalore/models/item/golden_spider_eye.json
 dac67f06ceea023cbddc2d00fc412dd90b826ff4 assets/goldengalore/models/item/golden_sugar.json
 202c6f293364b13c6a78d14eec8125ce58401db3 assets/goldengalore/models/item/golden_wheat.json
+0ebd7e5f60ff071f0430ec98005a614b5287402a assets/goldengalore/models/item/molten_gold_bucket.json
+a5480dba4a2bcb7e48c2467007ed14de8fa397b3 assets/goldengalore/models/item/solid_gold_bucket.json

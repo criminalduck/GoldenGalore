@@ -1,5 +1,6 @@
 package net.criminalduck.goldengalore.datagen;
 
+import com.google.gson.JsonObject;
 import net.criminalduck.goldengalore.GoldenGaloreMod;
 import net.criminalduck.goldengalore.init.ModBlocks;
 import net.criminalduck.goldengalore.init.ModItems;
@@ -10,6 +11,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -26,13 +28,19 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.GOLDEN_SUGAR);
         simpleItem(ModItems.GOLDEN_POTATO);
         simpleItem(ModItems.GOLDEN_BEETROOT);
+        simpleItem(ModItems.GOLDEN_SPIDER_EYE);
+        simpleItem(ModItems.GOLDEN_RABBITS_FOOT);
+        simpleItem(ModItems.GOLDEN_GHAST_TEAR);
+        simpleItem(ModItems.SOLID_GOLD_BUCKET);
+        simpleItem(ModItems.MOLTEN_GOLD_BUCKET);
 
-        itemBlockItem(ModBlocks.GOLD_DOOR);
+        simpleItemBlockItem(ModBlocks.GOLD_DOOR);
         simpleBlockItem(ModBlocks.GOLD_BRICK_STAIRS);
         simpleBlockItem(ModBlocks.GOLD_STAIRS);
         simpleBlockItem(ModBlocks.GOLD_BRICK_SLAB);
         simpleBlockItem(ModBlocks.GOLD_SLAB);
         simpleBlockItem(ModBlocks.GOLD_CHISELED_BLOCK);
+        simpleBlockItem(ModBlocks.GOLD_PILLAR);
 
         trapdoorItem(ModBlocks.GOLD_TRAPDOOR);
         buttonItem(ModBlocks.GOLD_BUTTON, Blocks.GOLD_BLOCK);
@@ -40,13 +48,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.GOLD_WALL, Blocks.GOLD_BLOCK);
     }
 
-    private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
-        return withExistingParent(item.getId().getPath(), "item/generated")
+    private void simpleItem(RegistryObject<Item> item) {
+        this.withExistingParent(item.getId().getPath(), "item/generated")
                 .texture("layer0", modLoc("item/" + item.getId().getPath()));
     }
 
-    private ItemModelBuilder itemBlockItem(RegistryObject<Block> item) {
-        return withExistingParent(item.getId().getPath(), mcLoc("item/generated"))
+    private void simpleItemBlockItem(RegistryObject<Block> item) {
+        this.withExistingParent(item.getId().getPath(), mcLoc("item/generated"))
                 .texture("layer0", modLoc("item/" + item.getId().getPath()));
     }
 

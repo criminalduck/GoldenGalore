@@ -32,8 +32,13 @@
   "item.goldengalore.golden_sugar": "§6Golden Sugar",
   "block.goldengalore.golden_sugar_block": "§6Block of Golden Sugar",
 
+  "item.goldengalore.golden_spider_eye": "§6Golden Spider Eye",
+  "item.goldengalore.golden_rabbits_foot": "§6Golden Rabbit's Foot",
+  "item.goldengalore.golden_ghast_tear": "§6Golden Ghast Tear",
+
   "block.goldengalore.gold_bricks": "§6Gold Bricks",
-  "block.goldengalore.gold_block_chiseled": "§6Chiseled Gold Block",
+  "block.goldengalore.chiseled_gold_block": "§6Chiseled Gold Block",
+  "block.goldengalore.gold_pillar": "§6Gold Pillar",
   "block.goldengalore.gold_brick_stairs": "§6Gold Brick Stairs",
   "block.goldengalore.gold_brick_slab": "§6Gold Brick Slab",
   "block.goldengalore.gold_stairs": "§6Gold Stairs",
@@ -44,11 +49,33 @@
   "block.goldengalore.gold_trapdoor": "§6Gold Trapdoor",
   "block.goldengalore.gold_button": "§6Gold Button",
 
+  "item.goldengalore.solid_gold_bucket": "§6Solid Gold Bucket",
+  "item.goldengalore.molten_gold_bucket": "§6Molten Gold Bucket",
+
   "item.goldengalore.midas_crown": "§6Midas' Crown",
 
-  "effect.goldengalore.golden_frenzy": "§6Golden Frenzy",
-  "effect.goldengalore.sugar_craze": "Sugar Craze",
-  "effect.goldengalore.golden_protection": "§6Golden Protection",
+  "item.minecraft.potion.effect.gg_golden_frenzy_potion": "§6Potion of Golden Frenzy",
+  "item.minecraft.splash_potion.effect.gg_golden_frenzy_potion": "§6Splash Potion of Golden Frenzy",
+  "item.minecraft.lingering_potion.effect.gg_golden_frenzy_potion": "§6Lingering Potion of Golden Frenzy",
+  "item.minecraft.tipped_arrow.effect.gg_golden_frenzy_potion": "§6Arrow of Golden Frenzy",
+  "item.minecraft.potion.effect.gg_golden_corruption_potion": "§6Potion of Golden Corruption",
+  "item.minecraft.splash_potion.effect.gg_golden_corruption_potion": "§6Splash Potion of Golden Corruption",
+  "item.minecraft.lingering_potion.effect.gg_golden_corruption_potion": "§6Lingering Potion of Golden Corruption",
+  "item.minecraft.tipped_arrow.effect.gg_golden_corruption_potion": "§6Arrow of Golden Corruption",
+  "item.minecraft.potion.effect.gg_sugar_craze_potion": "Potion of Sugar Craze",
+  "item.minecraft.splash_potion.effect.gg_sugar_craze_potion": "Splash Potion of Sugar Craze",
+  "item.minecraft.lingering_potion.effect.gg_sugar_craze_potion": "Lingering Potion of Sugar Craze",
+  "item.minecraft.tipped_arrow.effect.gg_sugar_craze_potion": "Arrow of Sugar Craze",
+  "item.minecraft.potion.effect.gg_midas_touch_potion": "§6Potion of Midas' Touch",
+  "item.minecraft.splash_potion.effect.gg_midas_touch_potion": "§6Splash Potion of Midas' Touch",
+  "item.minecraft.lingering_potion.effect.gg_midas_touch_potion": "§6Lingering Potion of Midas' Touch",
+  "item.minecraft.tipped_arrow.effect.gg_midas_touch_potion": "§6Arrow of Midas' Touch",
+
+  "effect.goldengalore.golden_frenzy_effect": "§6Golden Frenzy",
+  "effect.goldengalore.golden_corruption_effect": "§6Golden Corruption",
+  "effect.goldengalore.sugar_craze_effect": "Sugar Craze",
+  "effect.goldengalore.golden_protection_effect": "§6Golden Protection",
+  "effect.goldengalore.midas_touch_effect": "§6Midas' Touch",
 
   "creativetab.goldengalore_tab": "Golden Galore",
 

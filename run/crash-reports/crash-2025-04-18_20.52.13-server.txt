@@ -1,0 +1,145 @@
+---- Minecraft Crash Report ----
+// I blame Dinnerbone.
+
+Time: 2025-04-18 20:52:13
+Description: Ticking player
+
+java.lang.IllegalArgumentException: Bound must be positive
+	at net.minecraft.world.level.levelgen.BitRandomSource.nextInt(BitRandomSource.java:22) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading}
+	at net.criminalduck.goldengalore.content.item.CrownItem.inventoryTick(CrownItem.java:50) ~[%23189!/:?] {re:classloading}
+	at net.minecraft.world.item.ItemStack.inventoryTick(ItemStack.java:481) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,xf:fml:forge:itemstack,re:mixin,xf:fml:forge:itemstack}
+	at net.minecraftforge.common.extensions.IForgeItem.onInventoryTick(IForgeItem.java:353) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23183%23190!/:?] {re:classloading,re:mixin}
+	at net.criminalduck.goldengalore.content.item.CrownCurioItem.onInventoryTick(CrownCurioItem.java:20) ~[%23189!/:?] {re:classloading}
+	at net.minecraftforge.common.extensions.IForgeItemStack.onInventoryTick(IForgeItemStack.java:306) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23183%23190!/:?] {re:computing_frames,re:classloading}
+	at net.minecraft.world.entity.player.Inventory.tick(Inventory.java:230) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:mixin,re:classloading,pl:mixin:APP:curios.mixins.json:MixinInventory,pl:mixin:A}
+	at net.minecraft.world.entity.player.Player.aiStep(Player.java:499) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2298) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:A}
+	at net.minecraft.world.entity.player.Player.tick(Player.java:241) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:467) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:262) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.network.Connection.tick(Connection.java:263) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading}
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:142) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:907) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Suspected Mod: 
+	Golden Galore (goldengalore), Version: 0.0.3
+		at TRANSFORMER/goldengalore@0.0.3/net.criminalduck.goldengalore.content.item.CrownItem.inventoryTick(CrownItem.java:50)
+Stacktrace:
+	at net.minecraft.world.level.levelgen.BitRandomSource.nextInt(BitRandomSource.java:22) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading}
+	at net.criminalduck.goldengalore.content.item.CrownItem.inventoryTick(CrownItem.java:50) ~[%23189!/:?] {re:classloading}
+	at net.minecraft.world.item.ItemStack.inventoryTick(ItemStack.java:481) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,xf:fml:forge:itemstack,re:mixin,xf:fml:forge:itemstack}
+	at net.minecraftforge.common.extensions.IForgeItem.onInventoryTick(IForgeItem.java:353) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23183%23190!/:?] {re:classloading,re:mixin}
+	at net.criminalduck.goldengalore.content.item.CrownCurioItem.onInventoryTick(CrownCurioItem.java:20) ~[%23189!/:?] {re:classloading}
+	at net.minecraftforge.common.extensions.IForgeItemStack.onInventoryTick(IForgeItemStack.java:306) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23183%23190!/:?] {re:computing_frames,re:classloading}
+	at net.minecraft.world.entity.player.Inventory.tick(Inventory.java:230) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:mixin,re:classloading,pl:mixin:APP:curios.mixins.json:MixinInventory,pl:mixin:A}
+	at net.minecraft.world.entity.player.Player.aiStep(Player.java:499) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+	at net.minecraft.world.entity.LivingEntity.tick(LivingEntity.java:2298) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:mixin,re:computing_frames,re:classloading,pl:mixin:APP:curios.mixins.json:MixinLivingEntity,pl:mixin:A}
+	at net.minecraft.world.entity.player.Player.tick(Player.java:241) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
+-- Player being ticked --
+Details:
+	Entity Type: minecraft:player (net.minecraft.server.level.ServerPlayer)
+	Entity ID: 172
+	Entity Name: Dev
+	Entity's Exact location: -154.03, 64.00, 27.12
+	Entity's Block location: World: (-155,64,27), Section: (at 5,0,11 in -10,4,1; chunk contains blocks -160,-64,16 to -145,319,31), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,-64,0 to -1,319,511)
+	Entity's Momentum: 0.00, -0.08, 0.00
+	Entity's Passengers: []
+	Entity's Vehicle: null
+Stacktrace:
+	at net.minecraft.server.level.ServerPlayer.doTick(ServerPlayer.java:467) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.tick(ServerGamePacketListenerImpl.java:262) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.network.Connection.tick(Connection.java:263) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading}
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:142) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:907) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:814) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:89) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:661) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.20.1.jar%23184!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Mac OS X (x86_64) version 12.6.7
+	Java Version: 17.0.10, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Eclipse Adoptium
+	Memory: 548577976 bytes (523 MiB) / 1983905792 bytes (1892 MiB) up to 6442450944 bytes (6144 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz
+	Identifier: Intel64 Family 6 Model 94 Stepping 3
+	Microarchitecture: Skylake (Client)
+	Frequency (GHz): 3.20
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: AMD Radeon R9 M380
+	Graphics card #0 vendor: AMD (0x1002)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x6640
+	Graphics card #0 versionInfo: Revision ID: 0x0080, ROM Revision: 113-C6005R-800, VBIOS Version: 113-C6005T-009, EFI Driver Version: 01.00.800
+	Memory slot #0 capacity (MB): 4096.00
+	Memory slot #0 clockSpeed (GHz): 1.60
+	Memory slot #0 type: DDR3
+	Memory slot #1 capacity (MB): 8192.00
+	Memory slot #1 clockSpeed (GHz): 1.60
+	Memory slot #1 type: DDR3
+	Memory slot #2 capacity (MB): 4096.00
+	Memory slot #2 clockSpeed (GHz): 1.60
+	Memory slot #2 type: DDR3
+	Memory slot #3 capacity (MB): 8192.00
+	Memory slot #3 clockSpeed (GHz): 1.60
+	Memory slot #3 type: DDR3
+	Virtual memory max (MB): 24576.00
+	Virtual memory used (MB): 13124.80
+	Swap memory total (MB): 0.00
+	Swap memory used (MB): 0.00
+	JVM Flags: 1 total; -Xss1M
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/172, l='ServerLevel[New World]', x=-154.03, y=64.00, z=27.12]]
+	Data Packs: vanilla, mod:goldengalore, mod:forge, mod:curios (incompatible), mod:jei
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.20.1-47.4.0_mapped_parchment_2023.06.26-1.|Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		                                                  |Forge                         |forge                         |47.4.0              |DONE      |Manifest: NOSIGNATURE
+		curios-forge-5.14.1+1.20.1_mapped_parchment_2023.0|Curios API                    |curios                        |5.14.1+1.20.1       |DONE      |Manifest: NOSIGNATURE
+		main                                              |Golden Galore                 |goldengalore                  |0.0.3               |DONE      |Manifest: NOSIGNATURE
+		jei-1.20.1-forge-15.20.0.106_mapped_parchment_2023|Just Enough Items             |jei                           |15.20.0.106         |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: b5995752-ba07-49e9-9173-8a017379c238
+	FML: 47.4
+	Forge: net.minecraftforge:47.4.0

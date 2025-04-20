@@ -21,7 +21,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(ModBlocks.GOLDEN_SUGAR_BLOCK);
         blockWithItem(ModBlocks.GOLD_BRICKS);
 
-        axisBlock((RotatedPillarBlock) ModBlocks.GOLD_CHISELED_BLOCK.get(), modLoc("block/gold_block_chiseled"));
+        axisBlock((RotatedPillarBlock) ModBlocks.GOLD_CHISELED_BLOCK.get(), modLoc("block/" + ModBlocks.GOLD_CHISELED_BLOCK.getId().getPath()));
+        axisBlock((RotatedPillarBlock) ModBlocks.GOLD_PILLAR.get(), modLoc("block/" + ModBlocks.GOLD_PILLAR.getId().getPath()));
         stairsBlock((StairBlock) ModBlocks.GOLD_BRICK_STAIRS.get(), blockTexture(ModBlocks.GOLD_BRICKS.get()));
         stairsBlock((StairBlock) ModBlocks.GOLD_STAIRS.get(), blockTexture(Blocks.GOLD_BLOCK));
         slabBlock((SlabBlock) ModBlocks.GOLD_BRICK_SLAB.get(), blockTexture(ModBlocks.GOLD_BRICKS.get()), blockTexture(ModBlocks.GOLD_BRICKS.get()));
@@ -30,8 +31,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         buttonBlock((ButtonBlock) ModBlocks.GOLD_BUTTON.get(), blockTexture(Blocks.GOLD_BLOCK));
         wallBlock((WallBlock) ModBlocks.GOLD_BRICK_WALL.get(), blockTexture(ModBlocks.GOLD_BRICKS.get()));
         wallBlock((WallBlock) ModBlocks.GOLD_WALL.get(), blockTexture(Blocks.GOLD_BLOCK));
-        doorBlockWithRenderType((DoorBlock) ModBlocks.GOLD_DOOR.get(), modLoc("block/gold_door_bottom"), modLoc("block/gold_door_top"), "cutout");
-        trapdoorBlockWithRenderType((TrapDoorBlock) ModBlocks.GOLD_TRAPDOOR.get(), modLoc("block/gold_trapdoor"), true, "cutout");
+        doorBlockWithRenderType((DoorBlock) ModBlocks.GOLD_DOOR.get(), modLoc("block/" + ModBlocks.GOLD_DOOR.getId().getPath() + "_bottom"), modLoc("block/" + ModBlocks.GOLD_DOOR.getId().getPath() + "_top"), "cutout");
+        trapdoorBlockWithRenderType((TrapDoorBlock) ModBlocks.GOLD_TRAPDOOR.get(), modLoc("block/" + ModBlocks.GOLD_TRAPDOOR.getId().getPath()), true, "cutout");
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

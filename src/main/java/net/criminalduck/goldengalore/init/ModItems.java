@@ -1,14 +1,19 @@
 package net.criminalduck.goldengalore.init;
 
-import net.criminalduck.goldengalore.item.CrownItem;
+import net.criminalduck.goldengalore.compat.CuriosCompat;
 import net.criminalduck.goldengalore.GoldenGaloreMod;
-import net.criminalduck.goldengalore.armour_material.MidasArmourMaterial;
-import net.criminalduck.goldengalore.item.PotatoItem;
+import net.criminalduck.goldengalore.content.armour_material.MidasArmourMaterial;
+import net.criminalduck.goldengalore.content.item.CrownItem;
+import net.criminalduck.goldengalore.content.item.GoldFood;
+import net.criminalduck.goldengalore.content.item.PotatoItem;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
+import net.minecraftforge.fml.ModList;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -19,27 +24,44 @@ public class ModItems {
     public static final RegistryObject<Item> GOLDEN_WHEAT = ITEMS.register("golden_wheat",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> GOLDEN_BREAD = ITEMS.register("golden_bread",
-            () -> new Item(new Item.Properties().food(ModFoods.GOLDEN_BREAD)));
+            () -> new GoldFood(new Item.Properties().food(ModFoods.GOLDEN_BREAD), new int[] {4, 2, 1, 1}));
     public static final RegistryObject<Item> GOLDEN_SUGAR = ITEMS.register("golden_sugar",
             () -> new Item(new Item.Properties().food(ModFoods.GOLDEN_SUGAR)));
     public static final RegistryObject<Item> GOLDEN_POTATO = ITEMS.register("golden_potato",
             () -> new PotatoItem(new Item.Properties().food(ModFoods.GOLDEN_POTATO)));
     public static final RegistryObject<Item> GOLDEN_BEETROOT = ITEMS.register("golden_beetroot",
-            () -> new Item(new Item.Properties().food(ModFoods.GOLDEN_BEETROOT)));
+            () -> new GoldFood(new Item.Properties().food(ModFoods.GOLDEN_BEETROOT)));
+
+    public static final RegistryObject<Item> GOLDEN_SPIDER_EYE = ITEMS.register("golden_spider_eye",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_RABBITS_FOOT = ITEMS.register("golden_rabbits_foot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GOLDEN_GHAST_TEAR = ITEMS.register("golden_ghast_tear",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> SOLID_GOLD_BUCKET = ITEMS.register("solid_gold_bucket",
+            () -> new Item(new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
+    public static final RegistryObject<Item> MOLTEN_GOLD_BUCKET = ITEMS.register("molten_gold_bucket",
+            () -> new BucketItem(ModFluids.SOURCE_MOLTEN_GOLD, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));
 
     // ARMOUR
-    public static final RegistryObject<Item> MIDAS_CROWN = ITEMS.register("midas_crown",
-            () -> new CrownItem(MidasArmourMaterial.MIDAS_ARMOUR, ArmorItem.Type.HELMET,
-                    new Item.Properties().stacksTo(1).fireResistant(), ModMobEffects.GOLDEN_PROTECTION.get()));
-
+    public static final RegistryObject<Item> MIDAS_CROWN = ITEMS.register("midas_crown", () -> {
+        if (ModList.get().isLoaded("curios")) {
+            return CuriosCompat.createCrown(MidasArmourMaterial.MIDAS_ARMOUR, ArmorItem.Type.HELMET,
+                    new Item.Properties().stacksTo(1).fireResistant(), ModMobEffects.GOLDEN_PROTECTION.get(), ModMobEffects.MIDAS_TOUCH.get(), new int[] {3, 10});
+        } else {
+            return new CrownItem(MidasArmourMaterial.MIDAS_ARMOUR, ArmorItem.Type.HELMET,
+                    new Item.Properties().stacksTo(1).fireResistant(), ModMobEffects.GOLDEN_PROTECTION.get(), ModMobEffects.MIDAS_TOUCH.get(), new int[] {3, 10});
+        }
+    });
 
     // FOODS Properties
     public static class ModFoods {
         public static final FoodProperties GOLDEN_BREAD = new FoodProperties.Builder().nutrition(12).saturationMod(14.4f).build();
-        public static final FoodProperties GOLDEN_SUGAR = new FoodProperties.Builder().nutrition(1).fast().effect(() -> new MobEffectInstance(ModMobEffects.SUGAR_CRAZE.get(), 200, 0), 1f).build();
-        public static final FoodProperties GOLDEN_SUGAR_BLOCK = new FoodProperties.Builder().nutrition(1).effect(() -> new MobEffectInstance(ModMobEffects.SUGAR_CRAZE.get(), 800, 9), 1f).build();
         public static final FoodProperties GOLDEN_POTATO = new FoodProperties.Builder().nutrition(6).saturationMod(3f).build();
         public static final FoodProperties GOLDEN_BEETROOT = new FoodProperties.Builder().nutrition(3).saturationMod(1f).build();
+        public static final FoodProperties GOLDEN_SUGAR = new FoodProperties.Builder().nutrition(1).fast().effect(() -> new MobEffectInstance(ModMobEffects.SUGAR_CRAZE.get(), 200, 0), 1f).build();
+        public static final FoodProperties GOLDEN_SUGAR_BLOCK = new FoodProperties.Builder().nutrition(1).effect(() -> new MobEffectInstance(ModMobEffects.SUGAR_CRAZE.get(), 800, 9), 1f).build();
 
         // not in use
         public static final FoodProperties.Builder GOLDEN_MUSHROOM = new FoodProperties.Builder().nutrition(2).effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 60, 3), 1.0f);

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_solid_gold_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "goldengalore:solid_gold_bucket"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:goldengaloremolten_gold_bucket_from_smelting_solid_gold_bucket"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_solid_gold_bucket",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:goldengaloremolten_gold_bucket_from_smelting_solid_gold_bucket"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -18,6 +18,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.GOLDEN_SUGAR_BLOCK.get());
         this.dropSelf(ModBlocks.GOLD_BRICKS.get());
         this.dropSelf(ModBlocks.GOLD_CHISELED_BLOCK.get());
+        this.dropSelf(ModBlocks.GOLD_PILLAR.get());
         this.dropSelf(ModBlocks.GOLD_BRICK_STAIRS.get());
         this.dropSelf(ModBlocks.GOLD_STAIRS.get());
         this.dropSelf(ModBlocks.GOLD_BRICK_WALL.get());

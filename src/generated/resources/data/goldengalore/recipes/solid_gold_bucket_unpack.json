@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "goldengalore:solid_gold_bucket"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_block"
+  }
+}

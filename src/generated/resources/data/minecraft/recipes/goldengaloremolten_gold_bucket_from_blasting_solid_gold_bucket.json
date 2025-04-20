@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.0,
+  "group": "misc",
+  "ingredient": {
+    "item": "goldengalore:solid_gold_bucket"
+  },
+  "result": "goldengalore:molten_gold_bucket"
+}
